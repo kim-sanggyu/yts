@@ -112,7 +112,7 @@ def main(NEW_SHEET_NAME):
     # sheet 보기 좋게 편집하고 sheet 선택
     ws = BOOK.Sheets(NEW_SHEET_NAME)
     autoFitSheet(ws)
-    ################
+    ############################
     freezeTopLine(excel, ws)
 
 ##########################################################################
